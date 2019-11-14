@@ -53,7 +53,7 @@ def join_horizontal(a, b, prefix=None, lwidth=0, gap=1):
         res.append(a_line.ljust(lwidth) + gap_str + b_line)
     return '\n'.join(res)
 
-def join_binary(p, a, b, align='upper', gap=False):
+def binary_edge(p, a, b, align='upper', gap=False):
     p = str(p)
     
     a_first, *a_rest = a = padded_lines(str(a), 0, 1)

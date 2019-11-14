@@ -1,1 +1,1 @@
-from treeart.treeart import box, join_binary
+from treeart.treeart import box, binary_edge
